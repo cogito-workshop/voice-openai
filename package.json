@@ -26,7 +26,8 @@
     "build:watch": "pnpm build --watch",
     "test": "vitest run",
     "lint": "eslint .",
-    "changesets": "npm changesets"
+    "changesets": "npm changesets",
+    "release": "npm run build && changeset publish"
   },
   "license": "Elastic-2.0",
   "dependencies": {
